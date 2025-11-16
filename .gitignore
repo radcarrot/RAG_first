@@ -1,0 +1,35 @@
+# Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Environment variables (CRITICAL!)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Large data files
+*.pdf
+gale_medical_data.json
+medical_data.json.bak
+
+# Cache
+.pytest_cache/
+.coverage
